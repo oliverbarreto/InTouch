@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A772B6B125606D4400438B05 /* InTouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6B025606D4400438B05 /* InTouchApp.swift */; };
+		A772B6B325606D4400438B05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6B225606D4400438B05 /* ContentView.swift */; };
+		A772B6B525606D4500438B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A772B6B425606D4500438B05 /* Assets.xcassets */; };
+		A772B6B825606D4500438B05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A772B6B725606D4500438B05 /* Preview Assets.xcassets */; };
+		A772B6BA25606D4500438B05 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6B925606D4500438B05 /* Persistence.swift */; };
+		A772B6BD25606D4500438B05 /* InTouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A772B6BB25606D4500438B05 /* InTouch.xcdatamodeld */; };
+		A772B6D125606D7900438B05 /* MainDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6C825606D7900438B05 /* MainDialView.swift */; };
+		A772B6D225606D7900438B05 /* MainPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6C925606D7900438B05 /* MainPlaceHolderView.swift */; };
+		A772B6D325606D7900438B05 /* MainCallhistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6CA25606D7900438B05 /* MainCallhistoryView.swift */; };
+		A772B6D425606D7900438B05 /* AdvancedSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6CB25606D7900438B05 /* AdvancedSettingsView.swift */; };
+		A772B6D525606D7900438B05 /* MainSuggestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6CC25606D7900438B05 /* MainSuggestedView.swift */; };
+		A772B6D625606D7900438B05 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6CD25606D7900438B05 /* SettingsView.swift */; };
+		A772B6D725606D7900438B05 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6CE25606D7900438B05 /* SideBar.swift */; };
+		A772B6D825606D7900438B05 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6CF25606D7900438B05 /* GeneralSettingsView.swift */; };
+		A772B6D925606D7900438B05 /* MainContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6D025606D7900438B05 /* MainContactsView.swift */; };
+		A772B6DC25606E3A00438B05 /* OLD_ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772B6DB25606E3A00438B05 /* OLD_ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A772B6AD25606D4400438B05 /* InTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A772B6B025606D4400438B05 /* InTouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTouchApp.swift; sourceTree = "<group>"; };
+		A772B6B225606D4400438B05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A772B6B425606D4500438B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A772B6B725606D4500438B05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A772B6B925606D4500438B05 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A772B6BC25606D4500438B05 /* InTouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InTouch.xcdatamodel; sourceTree = "<group>"; };
+		A772B6BE25606D4500438B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A772B6BF25606D4500438B05 /* InTouch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InTouch.entitlements; sourceTree = "<group>"; };
+		A772B6C825606D7900438B05 /* MainDialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDialView.swift; sourceTree = "<group>"; };
+		A772B6C925606D7900438B05 /* MainPlaceHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPlaceHolderView.swift; sourceTree = "<group>"; };
+		A772B6CA25606D7900438B05 /* MainCallhistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCallhistoryView.swift; sourceTree = "<group>"; };
+		A772B6CB25606D7900438B05 /* AdvancedSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedSettingsView.swift; sourceTree = "<group>"; };
+		A772B6CC25606D7900438B05 /* MainSuggestedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSuggestedView.swift; sourceTree = "<group>"; };
+		A772B6CD25606D7900438B05 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A772B6CE25606D7900438B05 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		A772B6CF25606D7900438B05 /* GeneralSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		A772B6D025606D7900438B05 /* MainContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContactsView.swift; sourceTree = "<group>"; };
+		A772B6DB25606E3A00438B05 /* OLD_ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLD_ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A772B6AA25606D4400438B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A772B6A425606D4400438B05 = {
+			isa = PBXGroup;
+			children = (
+				A772B6AF25606D4400438B05 /* InTouch */,
+				A772B6AE25606D4400438B05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A772B6AE25606D4400438B05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A772B6AD25606D4400438B05 /* InTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A772B6AF25606D4400438B05 /* InTouch */ = {
+			isa = PBXGroup;
+			children = (
+				A772B6BE25606D4500438B05 /* Info.plist */,
+				A772B6BF25606D4500438B05 /* InTouch.entitlements */,
+				A772B6B025606D4400438B05 /* InTouchApp.swift */,
+				A772B6B225606D4400438B05 /* ContentView.swift */,
+				A772B6B425606D4500438B05 /* Assets.xcassets */,
+				A772B6B925606D4500438B05 /* Persistence.swift */,
+				A772B6C725606D6800438B05 /* Model */,
+				A772B6C625606D5900438B05 /* Views */,
+				A772B6B625606D4500438B05 /* Preview Content */,
+			);
+			path = InTouch;
+			sourceTree = "<group>";
+		};
+		A772B6B625606D4500438B05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A772B6B725606D4500438B05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A772B6C625606D5900438B05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A772B6CB25606D7900438B05 /* AdvancedSettingsView.swift */,
+				A772B6CF25606D7900438B05 /* GeneralSettingsView.swift */,
+				A772B6CA25606D7900438B05 /* MainCallhistoryView.swift */,
+				A772B6D025606D7900438B05 /* MainContactsView.swift */,
+				A772B6C825606D7900438B05 /* MainDialView.swift */,
+				A772B6C925606D7900438B05 /* MainPlaceHolderView.swift */,
+				A772B6CC25606D7900438B05 /* MainSuggestedView.swift */,
+				A772B6CD25606D7900438B05 /* SettingsView.swift */,
+				A772B6CE25606D7900438B05 /* SideBar.swift */,
+				A772B6DB25606E3A00438B05 /* OLD_ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A772B6C725606D6800438B05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A772B6BB25606D4500438B05 /* InTouch.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A772B6AC25606D4400438B05 /* InTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A772B6C225606D4500438B05 /* Build configuration list for PBXNativeTarget "InTouch" */;
+			buildPhases = (
+				A772B6A925606D4400438B05 /* Sources */,
+				A772B6AA25606D4400438B05 /* Frameworks */,
+				A772B6AB25606D4400438B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InTouch;
+			productName = InTouch;
+			productReference = A772B6AD25606D4400438B05 /* InTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A772B6A525606D4400438B05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A772B6AC25606D4400438B05 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = A772B6A825606D4400438B05 /* Build configuration list for PBXProject "InTouch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A772B6A425606D4400438B05;
+			productRefGroup = A772B6AE25606D4400438B05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A772B6AC25606D4400438B05 /* InTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A772B6AB25606D4400438B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A772B6B825606D4500438B05 /* Preview Assets.xcassets in Resources */,
+				A772B6B525606D4500438B05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A772B6A925606D4400438B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A772B6BA25606D4500438B05 /* Persistence.swift in Sources */,
+				A772B6B325606D4400438B05 /* ContentView.swift in Sources */,
+				A772B6D825606D7900438B05 /* GeneralSettingsView.swift in Sources */,
+				A772B6D325606D7900438B05 /* MainCallhistoryView.swift in Sources */,
+				A772B6BD25606D4500438B05 /* InTouch.xcdatamodeld in Sources */,
+				A772B6D925606D7900438B05 /* MainContactsView.swift in Sources */,
+				A772B6D225606D7900438B05 /* MainPlaceHolderView.swift in Sources */,
+				A772B6D625606D7900438B05 /* SettingsView.swift in Sources */,
+				A772B6DC25606E3A00438B05 /* OLD_ContentView.swift in Sources */,
+				A772B6D725606D7900438B05 /* SideBar.swift in Sources */,
+				A772B6B125606D4400438B05 /* InTouchApp.swift in Sources */,
+				A772B6D125606D7900438B05 /* MainDialView.swift in Sources */,
+				A772B6D525606D7900438B05 /* MainSuggestedView.swift in Sources */,
+				A772B6D425606D7900438B05 /* AdvancedSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A772B6C025606D4500438B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A772B6C125606D4500438B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A772B6C325606D4500438B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InTouch/InTouch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"InTouch/Preview Content\"";
+				DEVELOPMENT_TEAM = 83JFF66S9C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.intouch.InTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A772B6C425606D4500438B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = InTouch/InTouch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"InTouch/Preview Content\"";
+				DEVELOPMENT_TEAM = 83JFF66S9C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliverbarreto.intouch.InTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A772B6A825606D4400438B05 /* Build configuration list for PBXProject "InTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A772B6C025606D4500438B05 /* Debug */,
+				A772B6C125606D4500438B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A772B6C225606D4500438B05 /* Build configuration list for PBXNativeTarget "InTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A772B6C325606D4500438B05 /* Debug */,
+				A772B6C425606D4500438B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A772B6BB25606D4500438B05 /* InTouch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A772B6BC25606D4500438B05 /* InTouch.xcdatamodel */,
+			);
+			currentVersion = A772B6BC25606D4500438B05 /* InTouch.xcdatamodel */;
+			path = InTouch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A772B6A525606D4400438B05 /* Project object */;
+}
